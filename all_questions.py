@@ -115,11 +115,11 @@ def question9():
 
     # int
     answers["(a) K"] = 5
-    answers["(b) K"] = 50
+    answers["(b) K"] = 5
 
     # explain_string
     answers["(a) explain"] = "if we choose k=1 it will result in overfitting or if we choose k=50 it might go for underfitting because there is much noise in the 1st figure region as it is tightly bonded."
-    answers["(b) explain"] = "if we choose k=1 it will result in overfitting or if we choose k=5 it might go for underfitting because there is much noise in the overlapped region."
+    answers["(b) explain"] = "if we choose k=1 it will result in overfitting or if we choose k=50 it might go overlapping because there is much noise so k=50 is not needed."
 
 
     return answers
