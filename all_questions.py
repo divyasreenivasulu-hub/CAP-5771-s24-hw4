@@ -137,7 +137,7 @@ def question10():
     answers["(a) P(C=1|-)"] = 0.2
 
     # type: explanatory string
-    answers["(a) P(A=1|+) explain your answer"] = "
+    answers["(a) P(A=1|+) explain your answer"] = "A has 3 positive 1 values and there are totally 5 one values hence the value will be 3%5 hence it is 0.6"
   
     # type: float
     # note: R is the sample (A=1,B=1,C=1)
@@ -149,7 +149,7 @@ def question10():
     answers["(b) class label"] = "+"
 
     # explain_string
-    answers["(b) Explain your reasoning"] = None
+    answers["(b) Explain your reasoning"] ="the probablity for the positive class is high with 0.2 hence we can say that the overall class is positive"
   
     # float
     answers["(c) P(A=1)"] = 0.5
@@ -176,7 +176,7 @@ def question10():
     answers["(e) A independent of B given class +?"] = "no"
 
     # type: explanatory string
-    answers["(e) A and B conditionally independent given class +, explain"] =  None
+    answers["(e) A and B conditionally independent given class +, explain"] =  "here p(a=1,b=1)!= p(a=1)*p(b=1) hence this is not independent"
   
     return answers
 # --------------------------------------------------------
