@@ -165,7 +165,7 @@ def question10():
     answers["(d) P(A=1,B=0)"] = 0.3
 
     # type: string: 'yes' or 'no'
-    answers["(d) A independent of B?"] = yes
+    answers["(d) A independent of B?"] = "yes"
   
     # type: float
     answers["(e) P(A=1,B=1|+)"] = 0.2
