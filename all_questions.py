@@ -46,9 +46,9 @@ def question3():
     answers = {}
 
     # string "yes" or "no"
-    answers["(a)"] = "yes"
+    answers["(a)"] = "no"
     answers["(b)"] = "no"
-    answers["(c)"] = "no"
+    answers["(c)"] = "yes"
 
     # explain-string: explanation in english prose
     answers["(a) example"] = "each rule specifies a unique combination of all attributes and doesnt overlap with one another. hence it is mutually exclusive."
@@ -81,7 +81,7 @@ def question8():
     # float
     answers["(a) P(X_1=1)"] = 0.65
     answers["(a) P(X_2=1)"] = 0.41
-    answers["(a) P(X_1=1,X_2=1)"] = 0.24
+    answers["(a) P(X_1=1,X_2=1)"] = 0.28
 
     # string: "dependent" or "independent"
     answers["(a) Relationship between X_1 and X_2"] = "dependent"
@@ -99,10 +99,10 @@ def question8():
 
     # For each row give the class predicted by the model after training using Naive Bayes
     # String: either '+' or '-'
-    answers["(d) Row 1"] = None
-    answers["(d) Row 2"] = None
-    answers["(d) Row 3"] = None
-    answers["(d) Row 4"] = None
+    answers["(d) Row 1"] ="+"
+    answers["(d) Row 2"] = "-"
+    answers["(d) Row 3"] = "-"
+    answers["(d) Row 4"] = "-"
 
     # float between 0 and 1
     answers["(d) Training error rate"] = 0.38
@@ -115,11 +115,11 @@ def question9():
 
     # int
     answers["(a) K"] = 5
-    answers["(b) K"] = 5
+    answers["(b) K"] = 50
 
     # explain_string
     answers["(a) explain"] = "if we choose k=1 it will result in overfitting or if we choose k=50 it might go for underfitting because there is much noise in the 1st figure region as it is tightly bonded."
-    answers["(b) explain"] = "if we choose k=1 it will result in overfitting or if we choose k=50 it might go for underfitting because there is much noise in the overlapped region."
+    answers["(b) explain"] = "if we choose k=1 it will result in overfitting or if we choose k=5 it might go for underfitting because there is much noise in the overlapped region."
 
 
     return answers
@@ -130,10 +130,10 @@ def question10():
 
     # float
     answers["(a) P(A=1|+)"] = 0.6
-    answers["(a) P(B=1|+)"] = 0.5
+    answers["(a) P(B=1|+)"] = 0.4
     answers["(a) P(C=1|+)"] = 0.8
     answers["(a) P(A=1|-)"] = 0.4
-    answers["(a) P(B=1|-)"] = 0.5
+    answers["(a) P(B=1|-)"] = 0.4
     answers["(a) P(C=1|-)"] = 0.2
 
     # type: explanatory string
@@ -141,9 +141,9 @@ def question10():
   
     # type: float
     # note: R is the sample (A=1,B=1,C=1)
-    answers["(b) P(+|R)"] = None 
-    answers["(b) P(R|+)"] = 0.12
-    answers["(b) P(R|-)"] = 0.02
+    answers["(b) P(+|R)"] = 1.0
+    answers["(b) P(R|+)"] = 0.2
+    answers["(b) P(R|-)"] = 0.0
 
     # string, '+' or '-'
     answers["(b) class label"] = "+"
@@ -154,23 +154,23 @@ def question10():
     # float
     answers["(c) P(A=1)"] = 0.5
     answers["(c) P(B=1)"] = 0.4
-    answers["(c) P(A=1,B=1)"] = 0.45
+    answers["(c) P(A=1,B=1)"] = 0.2
 
     # type: string, 'yes' or 'no'
-    answers["(c) A independent of B?"] = "no"
+    answers["(c) A independent of B?"] = "yes"
   
     # type: float
     answers["(d) P(A=1)"] = 0.5
     answers["(d) P(B=0)"] = 0.6
-    answers["(d) P(A=1,B=0)"] = 0.55
+    answers["(d) P(A=1,B=0)"] = 0.3
 
     # type: string: 'yes' or 'no'
-    answers["(d) A independent of B?"] = no
+    answers["(d) A independent of B?"] = yes
   
     # type: float
-    answers["(e) P(A=1,B=1|+)"] = 0.4
+    answers["(e) P(A=1,B=1|+)"] = 0.2
     answers["(e) P(A=1|+)"] = 0.6
-    answers["(e) P(B=1|+)"] = 0.5
+    answers["(e) P(B=1|+)"] = 0.4
 
     # type: string: 'yes' or 'no'
     answers["(e) A independent of B given class +?"] = "no"
