@@ -67,10 +67,10 @@ def question7():
     answers["(d)"] = "false"
 
     # explain_string: explanation in english prose
-    answers["(a) explain"] = "ne"
-    answers["(b) explain"] = "gdhjkskhdjewhd"
-    answers["(c) explain"] = "amnsjhfuie"
-    answers["(d) explain"] = "mfhjhrg"
+    answers["(a) explain"] = "back propogation is a process where the weights of k+1 layer are derived using the kth layer"
+    answers["(b) explain"] = "ANN makes predictions based on feed forward propogation "
+    answers["(c) explain"] = "vanishing gradient occurs because of not updating weights significantly"
+    answers["(d) explain"] = "if there any error persists the gradiant will not be zero and this process maily depends on learning rate not on classification"
 
     return answers
 
@@ -137,7 +137,7 @@ def question10():
     answers["(a) P(C=1|-)"] = 0.2
 
     # type: explanatory string
-    answers["(a) P(A=1|+) explain your answer"] = None
+    answers["(a) P(A=1|+) explain your answer"] = "
   
     # type: float
     # note: R is the sample (A=1,B=1,C=1)
